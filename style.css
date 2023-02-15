@@ -1,10 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 
-html{
-  background: linear-gradient(#f0f5f9, #96b1c5) fixed no-repeat;
+html {
+  background: linear-gradient(#f2f8fa, #95b1c5) fixed no-repeat;
   text-align: center;
 }
 
-body{
-  font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
+  width: fit-content;
+  display: inline-block;
+  text-align: left;
+}
+
+hr {
+  border: 3px white solid;
+  border-style: outset;
+}
+
+input {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 6px;
+  font-size: medium;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px;
+  background-color: green;
+  font-weight: bold;
+  color: white;
+  font-size: medium;
+  border: 3px black solid;
+  border-radius: 5px;
+  transition: 150ms ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  transition: 15ms ease-in-out;
+  transform: scale(0.95, 0.95);
+}
+
+select {
+  padding: 5px;
+  font-size: medium;
+  border-radius: 5px;
+}
+
+#output {
+  font-weight: 600;
 }
